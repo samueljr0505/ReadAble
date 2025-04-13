@@ -1,0 +1,79 @@
+/* Login.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+  }
+  
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .auth-box {
+    width: 100%;
+    max-width: 380px;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  .auth-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-box input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s ease;
+  }
+  
+  .auth-box input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+  }
+  
+  .auth-box button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .auth-box button:hover {
+    background-color: #4338ca;
+  }
+  
+  .auth-toggle {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .auth-toggle span {
+    color: #4f46e5;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
